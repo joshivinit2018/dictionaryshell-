@@ -1,0 +1,35 @@
+#!/bin/bash -x
+
+declare -A allrandomdie
+
+allrandomdie[randomdie1]=$(( ( RANDOM % 6 )  + 1 ))
+echo "first :" ${allrandomdie[randomdie1]}
+
+allrandomdie[randomdie2]=$(( ( RANDOM % 6 )  + 1 ))
+echo "2nd :" ${allrandomdie[randomdie2]}
+
+allrandomdie[randomdie3]=$(( ( RANDOM % 6 )  + 1 ))
+echo "3rd :" ${allrandomdie[randomdie3]}
+
+allrandomdie[randomdie4]=$(( ( RANDOM % 6 )  + 1 ))
+echo "4st :" ${allrandomdie[randomdie4]}
+
+allrandomdie[randomdie5]=$(( ( RANDOM % 6 )  + 1 ))
+echo "5st :" ${allrandomdie[randomdie5]}
+
+allrandomdie[randomdie6]=$(( ( RANDOM % 6 )  + 1 ))
+echo "6st :" ${allrandomdie[randomdie6]}
+
+allrandomdie[randomdie7]=$(( ( RANDOM % 6 )  + 1 ))
+echo "7st :" ${allrandomdie[randomdie7]}
+
+allrandomdie[randomdie8]=$(( ( RANDOM % 6 )  + 1 ))
+echo "8st :" ${allrandomdie[randomdie8]}
+
+allrandomdie[randomdie8]=$(( ( RANDOM % 6 )  + 1 ))
+echo "9st :" ${allrandomdie[randomdie9]}
+
+allrandomdie[randomdie10]=$(( ( RANDOM % 6 )  + 1 ))
+echo "10st :" ${allrandomdie[randomdie10]}
+
+
